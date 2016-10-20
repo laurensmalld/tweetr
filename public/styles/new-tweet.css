@@ -1,0 +1,29 @@
+.new-tweet .counter {
+  display: inline-block;
+  float: right;
+}
+
+.new-tweet h2 {
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.new-tweet #text-area {
+  padding: 20px;
+  margin: 5px;
+}
+
+.new-tweet {
+  border-radius: 10px;
+  background-color: #d3d3d3;
+  border: 1px solid black;
+}
+
+.new-tweet .form {
+  margin: 2em;
+}
+
+.negative-num {
+  color: red;
+}
