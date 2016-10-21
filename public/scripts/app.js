@@ -72,8 +72,9 @@ $(document).ready(function () {
     });
 
       //functionality for compose new tweet form to appear/disappear on compose button click
+    $('.new-tweet').hide();
     $('#compose-button').click(function () {
-      $('.new-tweet').slideToggle( "slow", function () {
+      $('.new-tweet').slideToggle( "fast", function () {
         $('#text-area').focus();
       });
     });

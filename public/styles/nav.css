@@ -32,15 +32,15 @@
   border: 1px solid black;
   padding: 3px;
   height: 70px;
-  width: 120px;
-  font-size: 24px;
+  width: 130px;
+  margin: 5px;
   float: right;
-}
-
-#compose-button p {
   line-height: 65px;
+  font-size: 24px;
+  text-align: center;
 }
 
 #compose-button:hover {
-  color: #00a087;
+  color: black;
+  background-color: white;
 }

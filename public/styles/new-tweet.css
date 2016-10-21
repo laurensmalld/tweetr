@@ -1,6 +1,6 @@
 .new-tweet .counter {
-  display: inline-block;
   float: right;
+  padding: 5px;
 }
 
 .new-tweet h2 {
@@ -10,8 +10,8 @@
 }
 
 .new-tweet #text-area {
-  padding: 20px;
   margin: 5px;
+  width: 95%;
 }
 
 .new-tweet {
